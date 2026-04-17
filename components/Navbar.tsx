@@ -9,7 +9,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="w-full h-20 bg-whie">
+    <div className="w-full h-20 bg-white sticky top-0 z-999">
       <div className="flex items-center justify-between relative bottom-4 w-[90%] mx-auto">
         {/* <div className=" bottom-11 relative"> */}
         <Link href="/">

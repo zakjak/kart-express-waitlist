@@ -8,7 +8,7 @@ const page = () => {
     <div className={`${roboto.className} p-8`}>
       <div className="md:grid md:grid-cols-2 gap-4 max-w-7xl mx-auto">
         <div className="flex flex-col gap-8 items-start justify-center">
-          <h1 className="text-6xl font-bold text-zinc-800">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-zinc-800">
             Always in <span className="text-[#F98005]">Motion.</span> <br />{" "}
             Always here to <br />
             help.
@@ -30,7 +30,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-[80%] h-100 md:w-[80%] md:h-160 rounded-3xl overflow-hidden mt-8">
+        <div className="relative h-100 md:w-[80%] md:h-160 rounded-3xl overflow-hidden mt-8">
           <Image
             src="/images/motion-bike.jpg"
             fill
