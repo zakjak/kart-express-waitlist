@@ -15,7 +15,7 @@ const TopBanner = () => {
         fill
         className="object-cover"
         loading="eager"
-        alt=""
+        alt="A picture showing a lady riding a bicycle and a man riding a motorbike, both doing deliveryand together they can navigate in any street."
       />
       <div className="absolute bottom-16 md:bottom-24 left-15 md:left-30 text-white flex flex-col items-start gap-6 ">
         <span className="flex items-center gap-2 bg-[#CBCEFF] text-[#343D96]  font-semibold text-xs px-3 py-1.5 rounded-full">

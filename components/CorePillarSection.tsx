@@ -65,7 +65,7 @@ const CorePillarSection = () => {
               width={240}
               height={240}
               className="object-cover w-full h-full"
-              alt=""
+              alt="Hands of a delivery person holding a bag of groceries in a paper bag"
             />
           </div>
           <div className="w-40 h-30 rounded-2xl overflow-hidden shadow-xl mt-10">
@@ -74,7 +74,7 @@ const CorePillarSection = () => {
               width={240}
               height={240}
               className=" object-cover w-full h-full"
-              alt=""
+              alt="A delivery man carrying a basket of groceries"
             />
           </div>
         </div>

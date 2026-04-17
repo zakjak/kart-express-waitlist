@@ -35,7 +35,7 @@ const page = () => {
             src="/images/motion-bike.jpg"
             fill
             className="absolute object-cover"
-            alt=""
+            alt="motobike in motion delivery, moving very fast."
           />
         </div>
       </div>

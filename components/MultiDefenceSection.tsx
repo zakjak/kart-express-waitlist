@@ -56,7 +56,7 @@ const MultiDefenceSection = () => {
             src="/images/medical-1.png"
             fill
             className="absolute object-cover"
-            alt=""
+            alt="A cartoonic guy with nose mask, gloves and sanitizer, symbolizing 100% quality check"
           />
         </div>
       </div>

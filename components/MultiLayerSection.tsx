@@ -9,7 +9,7 @@ const MultiLayerSection = () => {
             src="/images/kart-express-1.png"
             fill
             className="absolute object-cover"
-            alt=""
+            alt="A groups of programmers, which shows we have a team of programs working on each project"
           />
         </div>
       </div>

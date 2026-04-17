@@ -41,7 +41,7 @@ const AboveProfitSection = () => {
               src="/images/about-1.jpeg"
               className="object-cover absolute"
               fill
-              alt=""
+              alt="man smiling on a motorbike for delivery"
               loading="eager"
             />
           </div>

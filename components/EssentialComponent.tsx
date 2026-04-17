@@ -50,7 +50,7 @@ const EssentialComponent = () => {
                     fill
                     className="absolute object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    alt=""
+                    alt="Plantain with tilapia and sauce served on a plate"
                   />
                 </div>
               </div>
@@ -118,7 +118,7 @@ const EssentialComponent = () => {
                     fill
                     className="absolute object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    alt=""
+                    alt="bicycle tire, showing just the spokes and chain"
                   />
                 </div>
               </div>

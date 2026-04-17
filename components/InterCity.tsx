@@ -4,12 +4,12 @@ const InterCity = () => {
   return (
     <div className="bg-[#EDF8FF] ">
       <div className="max-w-360 mx-auto grid grid-cols-2 items-center p-3">
-        <div className="relative w-[14rem] h-[10rem] rounded-2xl overflow-hidden shadow-2xl border-8 border-[#D5E5EF] block md:hidden">
+        <div className="relative w-56 h-40 rounded-2xl overflow-hidden shadow-2xl border-8 border-[#D5E5EF] block md:hidden">
           <Image
             src="/images/africa.png"
             fill
             className="absolute object-cover"
-            alt=""
+            alt="African map showing line routes"
           />
         </div>
 
@@ -98,7 +98,7 @@ const InterCity = () => {
               src="/images/africa.png"
               fill
               className="absolute object-cover"
-              alt=""
+              alt="African map showing line routes"
             />
           </div>
         </div>
