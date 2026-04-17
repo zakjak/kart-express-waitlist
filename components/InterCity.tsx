@@ -46,7 +46,7 @@ const InterCity = () => {
               </h3>
               <p className="text-xs text-zinc-500 mt-2">
                 {
-                  "Starting in Ghana, we are building the blueprint for high-density delivery across ECOWAS and scaling to Nigeria."
+                  "Starting in Ghana, we are building the blueprint for high-density delivery across ECOWAS and scaling to African continent."
                 }
               </p>
             </div>

@@ -56,7 +56,7 @@ const TopBanner = () => {
         </div>
         <Link href="#waitlist">
           <Button className="bg-linear-to-r from-[#924601] to-[#f57c00] py-6 md:py-8 px-4 font-semibold text-[1.1rem] cursor-pointer">
-            <span>Join the Wautlist</span>
+            <span>Join the Waitlist</span>
           </Button>
         </Link>
       </div>

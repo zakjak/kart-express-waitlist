@@ -44,8 +44,8 @@ const Footer = () => {
       <div className="flex items-center gap-2 text-xs text-zinc-600 mt-4">
         <FaCopyright />
         <span>
-          {new Date().getFullYear()} Kart Express Inc. KINETIC INFRASTURE FOR
-          AFRICA.
+          {new Date().getFullYear()} Kart Express Inc. KINETIC INFRASTRUCTURE
+          FOR AFRICA.
         </span>
       </div>
     </div>

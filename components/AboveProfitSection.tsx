@@ -20,7 +20,7 @@ const AboveProfitSection = () => {
             to the highest hygiene and quality standards. At KartExpress, your
             delivery’s safety is guaranteed through our multi-layered quality
             checks at the vendor and dispatch levels. We form the lifeline to
-            your safest delivery ecosystem that you can trust and while our
+            your safest delivery ecosystem that you can trust. While our
             competitors call it deliveries: we say your health matters, and most
             importantly the safety of your delivered items assume priority over
             profits. At KartExpress, every item we deliver (food, medicine,

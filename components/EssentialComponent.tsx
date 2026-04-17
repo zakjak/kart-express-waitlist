@@ -35,7 +35,7 @@ const EssentialComponent = () => {
                   </h2>
                   <p className="text-zinc-500 lg:w-[70%] mt-2">
                     From the local market to global chains. Delivered hot and
-                    fresh from the source to your door
+                    fresh from the source to your doorstep
                   </p>
                   <Link
                     href="/"
@@ -102,7 +102,7 @@ const EssentialComponent = () => {
                   </h2>
                   <p className="text-zinc-500 lg:w-[70%] mt-2">
                     {
-                      "Our unique 'Walker' and Bicycle networks ensure we can navigate the tightest alleys and most congested markets where cars can't react."
+                      "Our unique 'Walker' and Bicycle networks ensure we can navigate the tightest alleys and most congested markets where cars can't reach."
                     }
                   </p>
                   <Link
