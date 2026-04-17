@@ -78,7 +78,7 @@ const WaitListForm = () => {
   };
 
   return (
-    <div className="md:p-32 p-16" id="wait-list-section">
+    <div className="px-4 py-8" id="wait-list-section">
       <Card className="w-[90%] lg:w-[60%] mx-auto bg-[#EDF8FF] text-center relative shadow-2xl">
         <MdOutlineElectricMoped
           size={100}

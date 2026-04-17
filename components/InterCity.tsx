@@ -3,8 +3,8 @@ import Image from "next/image";
 const InterCity = () => {
   return (
     <div className="bg-[#EDF8FF] ">
-      <div className="max-w-360 mx-auto grid grid-cols-2 items-center p-3">
-        <div className="relative w-56 h-40 rounded-2xl overflow-hidden shadow-2xl border-8 border-[#D5E5EF] block md:hidden">
+      <div className="max-w-360 mx-auto grid md:grid-cols-2 items-center p-3">
+        <div className="hidden md:block lg:hidden relative w-56 h-40 rounded-2xl overflow-hidden shadow-2xl border-8 border-[#D5E5EF]">
           <Image
             src="/images/africa.png"
             fill
@@ -13,7 +13,7 @@ const InterCity = () => {
           />
         </div>
 
-        <div className="px-8 py-20 block md:hidden">
+        <div className="px-8 py-20 lg:hidden block">
           <h1 className="text-[#243036] text-2xl font-extrabold">
             From <span className="text-[#924601]">Accra</span> to{" "}
             <span className="text-[#4A53AC]">Africa</span>
@@ -67,7 +67,7 @@ const InterCity = () => {
             </div>
           </div>
         </div>
-        <div className="px-8 py-20 hidden md:block">
+        <div className="px-8 py-20 hidden md:hidden lg:block">
           <h1 className="text-[#243036] text-3xl font-extrabold">
             From <span className="text-[#924601]">Accra</span> to{" "}
             <span className="text-[#4A53AC]">Africa</span>
@@ -92,7 +92,7 @@ const InterCity = () => {
             </div>
           </div>
         </div>
-        <div className="md:block hidden">
+        <div className="hidden md:hidden lg:block">
           <div className="relative w-92 h-56 lg:w-120 lg:h-60 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
             <Image
               src="/images/africa.png"
