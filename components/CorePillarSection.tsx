@@ -1,12 +1,11 @@
 import Image from "next/image";
-import React from "react";
 import { BsFillHeartPulseFill, BsShieldFillCheck } from "react-icons/bs";
 import { MdHandshake, MdHealthAndSafety } from "react-icons/md";
 import { RiFirstAidKitFill } from "react-icons/ri";
 
 const CorePillarSection = () => {
   return (
-    <div className="bg-[#E4F3FC] w-[90%] md:max-w-[70rem] mx-auto 0 p-10 ">
+    <div className="bg-[#E4F3FC] w-[90%] md:max-w-280 mx-auto 0 p-10 ">
       <h1 className="text-[#243036] text-3xl font-black">The Core Pillars</h1>
       <p className="mt-2 text-sm text-zinc-600">
         We form the lifeline to your safest delivery ecosystem that you can

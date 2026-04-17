@@ -93,7 +93,7 @@ const InterCity = () => {
           </div>
         </div>
         <div className="md:block hidden">
-          <div className="relative w-[23rem] h-[14rem] lg:w-[30rem] lg:h-[15rem] rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+          <div className="relative w-92 h-56 lg:w-120 lg:h-60 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
             <Image
               src="/images/africa.png"
               fill

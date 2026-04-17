@@ -6,7 +6,7 @@ const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 const page = () => {
   return (
     <div className={`${roboto.className} p-8`}>
-      <div className="md:grid md:grid-cols-2 gap-4 max-w-[80rem] mx-auto">
+      <div className="md:grid md:grid-cols-2 gap-4 max-w-7xl mx-auto">
         <div className="flex flex-col gap-8 items-start justify-center">
           <h1 className="text-6xl font-bold text-zinc-800">
             Always in <span className="text-[#F98005]">Motion.</span> <br />{" "}

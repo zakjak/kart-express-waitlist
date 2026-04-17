@@ -1,5 +1,4 @@
 import EssentialComponent from "@/components/EssentialComponent";
-import Footer from "@/components/Footer";
 import InterCity from "@/components/InterCity";
 import TheWhy from "@/components/TheWhy";
 import TopBanner from "@/components/TopBanner";

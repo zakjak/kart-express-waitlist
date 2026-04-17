@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MultiDefenceSection = () => {
   return (
-    <div className=" p-10 max-w-[80rem] mx-auto block md:hidden bg-[#dcf1f6]">
+    <div className=" p-10 max-w-7xl mx-auto block md:hidden bg-[#dcf1f6]">
       <div className="flex flex-col gap-4 justify-center w-[90%]">
         <h1 className="text-4xl font-extrabold text-center">
           The Multi-Layered <br /> Defense
@@ -51,7 +51,7 @@ const MultiDefenceSection = () => {
             </p>
           </div>
         </div>
-        <div className="relative w-[80%] h-[15rem] mx-auto rounded-2xl overflow-hidden shadow-2xl">
+        <div className="relative w-[80%] h-60 mx-auto rounded-2xl overflow-hidden shadow-2xl">
           <Image
             src="/images/medical-1.png"
             fill

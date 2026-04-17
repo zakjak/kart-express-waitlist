@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { FaEnvelope, FaCopyright } from "react-icons/fa";
+import { FaCopyright } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {

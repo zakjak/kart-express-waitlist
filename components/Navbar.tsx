@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex">
-          <Link href={""}>
+          <Link href={"#wait-list-section"}>
             <Button className="bg-linear-to-r from-[#924601] to-[#f57c00] py-8 px-4 font-semibold text-[1.1rem]">
               <span>Join the Waitlist</span>
             </Button>
@@ -68,6 +68,14 @@ const Navbar = () => {
               onClick={() => setOpen(false)}
             >
               Delivery
+            </Link>
+            <Link href={"#wait-list-section"} onClick={() => setOpen(false)}>
+              <Button
+                className="bg-linear-to-r w-full from-[#924601] to-[#f57c00] py-6
+               px-4 font-semibold text-[1.1rem] cursor-pointer"
+              >
+                <span>Join the Waitlist</span>
+              </Button>
             </Link>
           </SheetContent>
         </Sheet>

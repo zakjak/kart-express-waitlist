@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MultiLayerSection = () => {
   return (
-    <div className="md:grid md:grid-cols-2 gap-6 p-10 max-w-[80rem] mx-auto hidden">
+    <div className="md:grid md:grid-cols-2 gap-6 p-10 max-w-7xl mx-auto hidden">
       <div className="w-full md:flex justify-center hidden">
         <div className="relative w-100 h-140 rounded-4xl overflow-hidden">
           <Image
