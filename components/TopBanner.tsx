@@ -22,15 +22,19 @@ const TopBanner = () => {
           <HiCheckBadge size={18} />
           LAUNCHING SOON IN ACCRA
         </span>
-        <div className="text-3xl md:text-6xl font-extrabold">
+        <div className="text-2xl md:text-6xl font-extrabold">
           <h1>DELIVER ANYTHING.</h1>
           <h1>ANYWAY YOU MOVE.</h1>
         </div>
 
-        <p className="w-[80%] md:w-[50%] font-extrabold tracking-widest text-white">
+        <p className="w-[80%] md:w-[50%] font-extrabold tracking-widest text-white md:block hidden">
           Hyper-local delivery engineered for the speed of life. From hot jollof
           to life-saving meds, we bridge the gap with motorbikes, bicycles and
           the power of the community
+        </p>
+        <p className="w-[80%] md:w-[50%] font-extrabold tracking-widest text-white block hmd:idden">
+          Fast, reliable delivery for food, medicine, and essentials—powered by
+          bikes and community.
         </p>
         <div className="grid grid-cols-2 md:flex gap-4 font-semibold tracking-widest text-sm items-center">
           <span className="inline-flex items-center gap-2 bg-green-700  rounded-full w-fit px-4 py-2 ">
@@ -45,13 +49,13 @@ const TopBanner = () => {
             <FaWalking />
             Walking
           </span>
-          <span className="flex items-center gap-2 bg-amber-600 rounded-full text-black px-4 py-2 ">
+          <span className="flex items-center gap-2 bg-amber-600 rounded-full text-black px-4 py-2 whitespace-nowrap">
             <RiFlashlightFill />
             15-min Delivery
           </span>
         </div>
         <Link href="#waitlist">
-          <Button className="bg-linear-to-r from-[#924601] to-[#f57c00] py-8 px-4 font-semibold text-[1.1rem] cursor-pointer">
+          <Button className="bg-linear-to-r from-[#924601] to-[#f57c00] py-6 md:py-8 px-4 font-semibold text-[1.1rem] cursor-pointer">
             <span>Join the Wautlist</span>
           </Button>
         </Link>
