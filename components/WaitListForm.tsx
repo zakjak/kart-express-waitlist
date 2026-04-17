@@ -198,14 +198,14 @@ const WaitListForm = () => {
                       </SelectTrigger>
                       <SelectContent position="item-aligned">
                         <SelectItem value="customer">
-                          Ordering Food & Essentials
+                          Ordering Food and Essentials
                         </SelectItem>
                         <SelectItem value="rider">Become a Rider</SelectItem>
                         <SelectItem value="merchant">
-                          List My Business
+                          Listing My Business
                         </SelectItem>
                         <SelectItem value="partner">
-                          Partner with Kartexpress
+                          Partnering with Kartexpress
                         </SelectItem>
                         <SelectItem value="investor">
                           Invest / Support
