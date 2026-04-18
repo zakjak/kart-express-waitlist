@@ -37,6 +37,7 @@ const TopBanner = () => {
             <Image
               src="/images/bike-delivery-2.png"
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="object-cover"
               loading="eager"
               alt="A picture showing a lady riding a bicycle and a man riding a motorbike, both doing deliveryand together they can navigate in any street."

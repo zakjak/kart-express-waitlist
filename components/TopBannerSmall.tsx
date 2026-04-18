@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const TopBannerSmall = () => {
   return (
-    <div className="w-full bg-red flex flex-col items-start md:hidden gap-5">
+    <div className="w-full bg-red  flex flex-col items-start md:hidden gap-5">
       <div className="flex flex-col  p-4 items-start gap-5">
         <span className="flex items-center gap-2 bg-[#CBCEFF] text-[#343D96]  font-semibold text-xs px-3 py-1.5 rounded-full">
           <HiCheckBadge size={18} />
