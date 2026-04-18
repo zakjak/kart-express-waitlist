@@ -14,8 +14,8 @@ const page = () => {
             help.
           </h1>
           <p className="w-[80%] text-zinc-500">
-            Our kinetic infrasture never sleeps. While our couriers traverse the
-            country, our support team ensure your peace of mind through
+            Our kinetic infrastructure never sleeps. While our couriers traverse
+            the country, our support team ensure your peace of mind through
             streamlined digital communication
           </p>
           <div className="flex items-center gap-4 bg-[#E4F3FC] px-8 py-4 rounded-2xl border-2 border-zinc-200">

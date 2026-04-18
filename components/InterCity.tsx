@@ -16,8 +16,8 @@ const InterCity = () => {
 
         <div className="px-8 py-20 lg:hidden block">
           <h1 className="text-[#243036] text-2xl font-extrabold">
-            From <span className="text-[#924601]">Accra</span> to{" "}
-            <span className="text-[#4A53AC]">Africa</span>
+            From Accra to <br />
+            Africa
           </h1>
           <h2 className="text-[#924601] text-2xl font-extrabold">
             Bridging the Gap.
@@ -47,7 +47,7 @@ const InterCity = () => {
               </h3>
               <p className="text-xs text-zinc-500 mt-2">
                 {
-                  "Starting in Ghana, we are building the blueprint for high-density delivery across ECOWAS and scaling to African continent."
+                  "Starting in Ghana, we are building the blueprint for high-density delivery across ECOWAS and scaling to the African continent."
                 }
               </p>
             </div>
