@@ -58,9 +58,6 @@ const MultiDefenceSection = () => {
             className="absolute object-cover"
             alt="A cartoonic guy with nose mask, gloves and sanitizer, symbolizing 100% quality check"
           />
-          <div className=" absolute rotate-90 bg-[#FED047] left-[1.2rem] font-semibold rounded-lg top-15 p-2 text-sm">
-            100% Quality Checks
-          </div>
         </div>
       </div>
     </div>
