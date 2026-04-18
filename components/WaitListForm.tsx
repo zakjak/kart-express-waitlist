@@ -80,7 +80,7 @@ const WaitListForm = () => {
   return (
     <div
       id="wait-list-section"
-      className="] mx-auto  text-center relative bg-[#EDF8FF] p-20"
+      className="mx-auto  text-center relative bg-[#EDF8FF] py-20"
     >
       <Card className="w-[90%] lg:w-[60%] mx-auto bg-white text-center relative shadow-2xl">
         <MdOutlineElectricMoped
