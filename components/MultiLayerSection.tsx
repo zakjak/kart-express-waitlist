@@ -8,6 +8,7 @@ const MultiLayerSection = () => {
           <Image
             src="/images/kart-express-1.png"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="absolute object-cover"
             alt="A groups of programmers, which shows we have a team of programs working on each project"
           />
