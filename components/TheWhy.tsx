@@ -6,7 +6,7 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 
 const TheWhy = () => {
   return (
-    <div className="p-5">
+    <div className="p-5 hidden md:block bg-[#EDF8FF]">
       <h1 className="text-center text-2xl md:text-3xl font-semibold">
         Why Choose KartExpress?
       </h1>

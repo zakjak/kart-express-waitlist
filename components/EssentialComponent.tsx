@@ -8,9 +8,9 @@ import { FaWalking } from "react-icons/fa";
 
 const EssentialComponent = () => {
   return (
-    <div className="bg-[#E4F3FC] lg:p-10 p-4" id="delivery">
+    <div className="bg-[#EDF8FF] lg:p-10 p-4" id="delivery">
       <div className="max-w-360 mx-auto">
-        <div className="mb-4">
+        <div className="mb-4 hidden md:block">
           <h2 className="font-extrabold text-lg">
             Essentials Delivered.{" "}
             <span className="text-[#4C55AD] ">No Friction</span>
@@ -18,6 +18,17 @@ const EssentialComponent = () => {
           <h3 className="text-zinc-500 font-semibold">
             {
               "Whether it's across the street or across the city, we've got you covered."
+            }
+          </h3>
+        </div>
+        <div className="mb-4 md:hidden block">
+          <h2 className="font-extrabold text-3xl text-zinc-700">
+            Engineered for <br />
+            Velocity
+          </h2>
+          <h3 className="text-zinc-500 text-sm w-[90%] mt-2">
+            {
+              "We don't just move boxes, we bridge distances with propriety tracking technology and an expensive human centered network"
             }
           </h3>
         </div>
