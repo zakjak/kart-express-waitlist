@@ -201,11 +201,11 @@ const WaitListForm = () => {
                       </SelectTrigger>
                       <SelectContent position="item-aligned">
                         <SelectItem value="customer">
-                          Order your food and essentials
+                          Order your Food and Essentials
                         </SelectItem>
                         <SelectItem value="rider">Become a Rider</SelectItem>
                         <SelectItem value="merchant">
-                          Enlist your business
+                          Enlist your Business
                         </SelectItem>
                         <SelectItem value="partner">
                           Partner with KartExpress
