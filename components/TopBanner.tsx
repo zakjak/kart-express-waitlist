@@ -7,7 +7,7 @@ import { IoShieldCheckmark } from "react-icons/io5";
 const TopBanner = () => {
   return (
     <div className="w-full md:grid gap-4 hidden bg-[#EDF8FF] items-center">
-      <div className="md:grid grid-cols-2 max-w-[70rem] mx-auto my-10">
+      <div className="md:grid grid-cols-2 max-w-280 mx-auto my-10">
         <div className="flex flex-col items-start gap-8 p-4">
           <span className="flex items-center gap-2 bg-[#CBCEFF] text-[#343D96]  font-semibold text-xs px-3 py-1.5 rounded-full">
             <HiCheckBadge size={18} />
@@ -26,7 +26,7 @@ const TopBanner = () => {
             to the highest hygiene and quality standards.
           </p>
 
-          <Link href="#waitlist">
+          <Link href="#wait-list-section">
             <Button className="bg-linear-to-r from-[#924601] to-[#f57c00] py-6 px-4 font-semibold text-[0.9rem] tracking-wider cursor-pointer">
               <span>Join the Waitlist</span>
             </Button>
