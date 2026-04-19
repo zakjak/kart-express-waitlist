@@ -23,6 +23,7 @@ import { Button } from "./ui/button";
 import { MdOutlineElectricMoped } from "react-icons/md";
 import { useState } from "react";
 import { toast } from "sonner";
+import { Spinner } from "./ui/spinner";
 
 const formSchema = z
   .object({
@@ -48,6 +49,7 @@ const formSchema = z
 
 const WaitListForm = () => {
   const [joined, setJoined] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -61,6 +63,7 @@ const WaitListForm = () => {
     },
   });
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    setIsSubmitting(true);
     const result = await fetch("/api/waitlist", {
       method: "POST",
       body: JSON.stringify(values),
@@ -68,13 +71,23 @@ const WaitListForm = () => {
 
     const data = await result.json();
 
-    if (!data.success) {
-      toast(data.message);
-    } else {
-      toast("Successfully joined waitlist 🎉🎉🎉");
-    }
+    try {
+      if (!data.success) {
+        toast(data.message);
 
-    setJoined(data);
+        setIsSubmitting(false);
+      } else {
+        toast("Successfully joined waitlist 🎉🎉🎉");
+        setIsSubmitting(false);
+      }
+
+      setJoined(data);
+    } catch (err) {
+      console.log(err);
+      toast("Server error. try again shortly");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -248,11 +261,18 @@ const WaitListForm = () => {
             </FieldGroup>
             <CardFooter>
               <Button
+                disabled={isSubmitting}
                 className="bg-linear-to-r from-[#9A4C00] to-[#F17B02] w-full text-[1rem] tracking-wide py-5 font-bold cursor-pointer"
                 type="submit"
                 form="form-rhf"
               >
-                Join the Waitlist
+                {isSubmitting ? (
+                  <div className="flex items-center gap-2">
+                    {"Submitting Waitlist"} <Spinner />
+                  </div>
+                ) : (
+                  "Join the Waitlist"
+                )}
               </Button>
             </CardFooter>
           </form>
