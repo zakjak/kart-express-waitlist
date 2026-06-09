@@ -25,7 +25,7 @@ const page = () => {
                 Direct Response Channel
               </h2>
               <h2 className="font-bold text-lg text-[#914804]">
-                kartexpressltd@gmail.com
+                info@kart-express.com
               </h2>
             </div>
           </div>

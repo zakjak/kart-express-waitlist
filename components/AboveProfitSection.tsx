@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboveProfitSection = () => {
   return (
-    <div className="w-full md:h-[60vh] flex">
+    <div className="w-full flex">
       <div className="max-w-280  md:grid md:grid-cols-2 mx-auto">
         <div className="flex flex-col justify-center items-start ml-10 gap-6">
           <span className="text-xs bg-[#CBCEFF] text-[#8186CB] p-1 font-semibold rounded-full mt-5 md:mt-0">
