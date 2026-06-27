@@ -65,9 +65,11 @@ const EvCharging = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="md:w-[70rem] mx-aut py-10">
-          <h1 className="text-center">How KartExpress EV Charging Works</h1>
-          <div className="md:flex mt-4 flex flex-col md:flex-row px-10">
+        <div className="lg::w-[70rem] mx-auto py-10">
+          <h1 className="text-center text-xl lg:text-3xl font-semibold text-zinc-700">
+            How KartExpress EV Charging Works
+          </h1>
+          <div className="md:flex mt-4 flex flex-col lg:flex-row px-10">
             <div className="">
               <div className="flex items-start gap-2">
                 <div className="text-[#3A8625] border border-[#CBDCCE] rounded-full p-2">
