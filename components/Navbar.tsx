@@ -30,6 +30,9 @@ const Navbar = () => {
           <Link href={"#delivery"} className="hover:underline">
             Delivery
           </Link>
+          <Link href="/ev-charging" className="hover:underline">
+            EV Charging
+          </Link>
         </div>
 
         <div className="hidden md:flex">
