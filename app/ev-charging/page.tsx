@@ -6,22 +6,22 @@ import { BsHandbagFill } from "react-icons/bs";
 
 const EvCharging = () => {
   return (
-    <div>
-      <div className="w-full md:grid md:grid-cols-2 ">
-        <div className="pl-10 py-20 bg-green-50">
+    <div className="">
+      <div className="w-full md:grid md:grid-cols-2">
+        <div className="pl-10 py-20 bg-green-50  lg:gap-4">
           <span className="bg-[#E4F4E6] text-xs text-[#20481F] px-2 rounded-2xl">
             EV CHARGING
           </span>
-          <h1 className="lg:text-4xl text-2xl w-[60%] font-bold text-zinc-800">
+          <h1 className="lg:text-4xl text-2xl w-[60%] font-bold text-zinc-800 pt-2 lg:pt-0">
             Powering Ghana{"'s"} Future,{" "}
             <span className="text-[#0C4A25]">One Charge</span> at a Time.
           </h1>
-          <h4 className="lg:w-[50%] w-[80%] text-zinc-800">
+          <h4 className="lg:w-[50%] w-[80%] text-zinc-800 mt-2">
             KartExpress is building a reliable and accessible EV charging
             network to support clean mobility, reduce emissions and power a
             sustainable future.
           </h4>
-          <div className="flex gap-2 mt-4">
+          <div className="hidden md:flex gap-4 mt-4">
             <div className="flex items-start gap-2">
               <div className="text-[#0c4a25] border border-[#0c4a25] rounded-2xl p-2">
                 <FaLocationDot />
